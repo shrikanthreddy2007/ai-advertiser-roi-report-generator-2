@@ -96,7 +96,7 @@ function HistoryPage() {
         </section>
 
         {history.length === 0 ? (
-          <section className="w-full max-w-xl glass-panel p-xl md:p-3xl rounded-3xl text-center space-y-lg mx-auto mt-2xl">
+          <section className="w-full max-w-[576px] glass-panel p-xl md:p-3xl rounded-3xl text-center space-y-lg mx-auto mt-2xl">
             <span className="material-symbols-outlined text-[64px] text-on-surface-variant/40">
               history_toggle_off
             </span>

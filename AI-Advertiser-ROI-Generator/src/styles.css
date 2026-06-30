@@ -84,6 +84,15 @@
   --text-mono-sm--line-height: 16px;
 
   /* Radius */
+  /* Sizing overrides to prevent max-w-* fallback conflicts with custom spacing */
+  --width-xs: 20rem;
+  --width-sm: 24rem;
+  --width-md: 28rem;
+  --width-lg: 32rem;
+  --width-xl: 36rem;
+  --width-2xl: 42rem;
+  --width-3xl: 48rem;
+
   --radius-xl: 0.75rem;
 }
 

@@ -400,10 +400,10 @@ ${displayData.recommendation}
             <div className="absolute -top-1/2 -left-1/4 w-[150%] h-[150%] bg-[radial-gradient(circle_at_center,rgba(180,197,255,0.08)_0%,transparent_70%)] animate-pulse" />
           </div>
           <div className="relative z-10 space-y-xl">
-            <h2 className="text-display-lg max-w-2xl mx-auto leading-tight">
+            <h2 className="text-display-lg max-w-[672px] mx-auto leading-tight">
               Generate Professional Advertiser ROI Reports in Seconds
             </h2>
-            <p className="text-body-lg text-on-surface-variant max-w-xl mx-auto">
+            <p className="text-body-lg text-on-surface-variant max-w-[576px] mx-auto">
               Empower your marketing team with AI-driven insights that drive growth and maximize
               every dollar spent.
             </p>
