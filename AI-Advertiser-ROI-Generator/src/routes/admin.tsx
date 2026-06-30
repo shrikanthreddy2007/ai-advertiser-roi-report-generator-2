@@ -55,7 +55,7 @@ function AdminDashboard() {
 
   return (
     <AppShell>
-      <div className="max-w-[1100px] mx-auto space-y-xl">
+      <div className="w-full max-w-[1100px] mx-auto space-y-xl">
         {/* Header */}
         <section className="pb-md border-b border-outline-variant/30">
           <h2 className="text-headline-lg font-bold text-on-surface">Admin Analytics Dashboard</h2>

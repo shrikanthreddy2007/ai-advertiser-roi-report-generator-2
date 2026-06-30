@@ -174,7 +174,7 @@ ${displayData.recommendation}
 
   return (
     <AppShell>
-      <div className="relative z-10 max-w-[1100px] mx-auto space-y-xl">
+      <div className="w-full relative z-10 max-w-[1100px] mx-auto space-y-xl">
         {/* Header actions */}
         <div className="flex flex-wrap gap-md justify-between items-end">
           <div>

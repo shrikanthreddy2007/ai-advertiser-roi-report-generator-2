@@ -76,7 +76,7 @@ function HistoryPage() {
 
   return (
     <AppShell>
-      <div className="max-w-[1100px] mx-auto space-y-xl">
+      <div className="w-full max-w-[1100px] mx-auto space-y-xl">
         <section className="flex flex-wrap gap-md justify-between items-center pb-md border-b border-outline-variant/30">
           <div>
             <h2 className="text-headline-lg font-bold text-on-surface">Generation History</h2>
@@ -96,7 +96,7 @@ function HistoryPage() {
         </section>
 
         {history.length === 0 ? (
-          <section className="glass-panel p-3xl rounded-3xl text-center space-y-lg max-w-xl mx-auto mt-2xl">
+          <section className="w-full max-w-xl glass-panel p-xl md:p-3xl rounded-3xl text-center space-y-lg mx-auto mt-2xl">
             <span className="material-symbols-outlined text-[64px] text-on-surface-variant/40">
               history_toggle_off
             </span>
